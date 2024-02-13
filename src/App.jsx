@@ -1,8 +1,13 @@
 import React from "react";
 import styles from "./App.module.css";
+import Work from "./components/work/Work";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Work />
+    </>
+  );
 };
 
 export default App;
