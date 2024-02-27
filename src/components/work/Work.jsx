@@ -57,9 +57,7 @@ const Work = () => {
           IND
         </p>
         <a href="https://www.instagram.com/niorr.in/">Instagram</a>
-        <a href="https://www.linkedin.com/company/100498816/admin/feed/posts/">
-          LinkdIn
-        </a>
+        <a href="https://www.linkedin.com">LinkdIn</a>
       </div>
     </section>
   );

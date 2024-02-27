@@ -33,6 +33,15 @@
 
 .box img{
     width: 100%;
+    transition: all linear 0.2s;
+}
+
+.box img:hover{
+    opacity: .5;
+}
+
+.box img:active{
+    opacity: .5;
 }
 
 .cta{
@@ -49,6 +58,14 @@
     color: #626262;
     font-family: helve;
     font-size: 20px;
+    transition: all linear 0.2s;
+}
+
+.cta p:hover{
+    color: #3c3c3c;
+}
+.cta p:active{
+    color: #3c3c3c;
 }
 
 .links a{
@@ -57,9 +74,25 @@
 
 .links a:nth-child(1){
     color: #68E066;
+    transition: all linear 0.2s;
 }
+
+.links a:nth-child(1):hover{
+    color: #53aa52;
+}
+.links a:nth-child(1):active{
+    color: #53aa52;
+}
+
 .links a:nth-child(2){
     color: #ED3833;
+    transition: all linear 0.2s;
+}
+.links a:nth-child(2):hover{
+    color: #9a0601;
+}
+.links a:nth-child(2):active{
+    color: #9a0601
 }
 
 .links{
@@ -91,6 +124,14 @@
     font-size: 1.5vw;
     font-family: helve;
     color: #3c3c3c;
+    transition: all linear 0.2s;
+}
+
+.socials a:hover{
+    color: #2e2e2e;
+}
+.socials a:active{
+    color: #2e2e2e;
 }
 
 @media (max-width:750px){
