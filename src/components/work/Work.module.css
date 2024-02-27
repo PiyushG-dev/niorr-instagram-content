@@ -22,6 +22,12 @@
     font-family: helve;
 }
 
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
 .projects_container{
     display: flex;
     gap: 2vw;
@@ -117,9 +123,12 @@
     transition: all linear 0.2s;
 }
 
+
 .socials a:active{
     color: #2e2e2e;
 }
+
+
 
 @media (max-width:750px){
     .wrapper{
@@ -144,11 +153,19 @@
         gap: 8vw;
     }
 
+    .projects{
+        gap: 8vw;
+    }
+
     .socials p{
         font-size: 3vw;
     }
     .socials a{
         font-size: 3vw;
+    }
+
+    .projects_container:nth-of-type(2) .box:nth-child(2){
+        display: none;
     }
 
 }
