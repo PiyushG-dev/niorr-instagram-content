@@ -13,11 +13,11 @@ const Work = () => {
   return (
     <section className={styles.wrapper}>
       <div className={styles.heading}>
-        <h2>Featured Work</h2>
-        <div className={styles.circles}>
-          <div className={styles.circle}></div>
-          <div className={styles.circle}></div>
-        </div>
+        <h2>Featured exclusives</h2>
+        <p>
+          From our team of detail-driven, design-focused producers, musicians,
+          and developers.
+        </p>
       </div>
       <div className={styles.projects_container}>
         <div className={styles.box}>

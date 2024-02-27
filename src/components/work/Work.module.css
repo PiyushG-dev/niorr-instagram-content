@@ -4,31 +4,21 @@
 
 .heading{
     padding-bottom: 2vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #E43D31;
+    border-bottom: 1px solid #2e2e2e;
 }
 
 .heading h2{
-    font-size: 6vw;
-    color: #E43D31;
+    font-size: 50px;
+    color: #3c3c3c;
     font-weight: lighter;
     cursor: pointer;
-    font-family: gta-bd;
-    text-transform: uppercase;
 }
 
-.circles{
-    display: flex;
-    gap: 10vw;
-}
-
-.circle{
-    width: 16px;
-    height: 16px;
-    background-color: #E43D31;
-    border-radius: 50%;
+.heading p{
+    color: #2e2e2e;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: helve;
 }
 
 .projects_container{
@@ -71,19 +61,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 2vw 0vw;
-    border-top: 1px solid #E43D31;
+    border-top: 1px solid #2e2e2e;
 }
 
 .location{
     display: flex;
     gap: .5vw;
-    align-items: flex-end;
 }
 
 .socials p{
-    font-family: gta-med;
-    color: #E43D31;
+    color: #3c3c3c;
     font-size: 1.5vw;
+    font-family: helve;
 }
 
 @media (max-width:750px){
@@ -91,10 +80,11 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 3vw;
+        text-align: center;
     }
 
     .heading h2{
-        font-size: 12vw;
+        font-size: 10vw;
     }
 
     .projects_container{
