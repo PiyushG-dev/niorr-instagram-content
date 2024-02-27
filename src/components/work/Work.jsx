@@ -3,9 +3,8 @@ import styles from "./Work.module.css";
 import video1 from "../../images/video1.mp4";
 import video2 from "../../images/video2.mp4";
 import video3 from "../../images/video3.mp4";
-import img1 from "../../images/ye.jpeg";
-import img2 from "../../images/lamar.jpeg";
-import img3 from "../../images/kanye.jpeg";
+import img1 from "../../images/karan.jpg";
+import img2 from "../../images/dyou.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
@@ -14,24 +13,15 @@ const Work = () => {
     <section className={styles.wrapper}>
       <div className={styles.heading}>
         <h2>Featured exclusives</h2>
-        <p>
-          From our team of detail-driven, design-focused producers, musicians,
-          and developers.
-        </p>
+        <p>From our team of creatives.</p>
       </div>
       <div className={styles.projects_container}>
-        <div className={styles.box}>
-          <img src={img1} alt="img" />
-          <video autoPlay loop muted src={video1}></video>
-        </div>
-        <div className={styles.box}>
-          <img src={img2} alt="img" />
-          <video autoPlay loop muted src={video2}></video>
-        </div>
-        <div className={styles.box}>
-          <img src={img3} alt="img" />
-          <video autoPlay loop muted src={video3}></video>
-        </div>
+        <a href="" className={styles.box}>
+          <img src={img1} alt="" />
+        </a>
+        <a href="" className={styles.box}>
+          <img src={img2} alt="" />
+        </a>
       </div>
       <div className={styles.socials}>
         <p>Copyright © niorr.</p>
