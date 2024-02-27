@@ -7,9 +7,6 @@
     gap: 3vw;
 }
 
-.heading{
-
-}
 
 .heading h2{
     font-size: 50px;
@@ -30,11 +27,45 @@
     gap: 2vw;
 }
 
+.box{
+    text-decoration: none;
+}
 
 .box img{
     width: 100%;
 }
 
+.cta{
+    padding-top: .5vw;
+}
+
+.cta{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.cta p{
+    color: #626262;
+    font-family: helve;
+    font-size: 20px;
+}
+
+.links a{
+    font-size: 25px;
+}
+
+.links a:nth-child(1){
+    color: #68E066;
+}
+.links a:nth-child(2){
+    color: #ED3833;
+}
+
+.links{
+    display: flex;
+    gap: 1vw;
+}
 
 .socials{
     width: 100%;
@@ -69,9 +100,14 @@
     .heading p{
         font-size: 16px;
     }
+    
+    .links{
+        gap: 3vw;
+    }
 
     .projects_container{
         flex-direction: column;
+        gap: 8vw;
     }
 
     .socials p{
