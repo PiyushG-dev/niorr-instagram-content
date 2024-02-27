@@ -1,9 +1,13 @@
 .wrapper{
     padding: 5vw 3vw 0vw 3vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;   
+    gap: 3vw;
 }
 
 .heading{
-    padding-bottom: 2vw;
     text-align: center;
 }
 
@@ -33,10 +37,7 @@
 
 
 .socials{
-    position: absolute;
-    bottom: 0;
-    left: 2vw;
-    right: 2vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,6 +57,10 @@
 }
 
 @media (max-width:750px){
+    .wrapper{
+        gap: 10vw;
+    }
+
     .heading h2{
         font-size: 10vw;
     }
