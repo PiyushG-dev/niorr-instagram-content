@@ -1,8 +1,5 @@
 import React from "react";
 import styles from "./Work.module.css";
-import video1 from "../../images/video1.mp4";
-import video2 from "../../images/video2.mp4";
-import video3 from "../../images/video3.mp4";
 import img1 from "../../images/karan.jpg";
 import img2 from "../../images/dyou.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

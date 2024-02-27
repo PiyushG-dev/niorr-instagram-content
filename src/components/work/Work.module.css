@@ -8,7 +8,7 @@
 }
 
 .heading{
-    text-align: center;
+
 }
 
 .heading h2{
@@ -58,7 +58,8 @@
 
 @media (max-width:750px){
     .wrapper{
-        gap: 10vw;
+        padding-top: 10vw;
+        gap: 8vw;
     }
 
     .heading h2{
