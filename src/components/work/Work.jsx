@@ -56,8 +56,10 @@ const Work = () => {
           <FontAwesomeIcon className={styles.globe} icon={faGlobe} />
           IND
         </p>
-        <p>Instagram</p>
-        <p>LinkdIn</p>
+        <a href="https://www.instagram.com/niorr.in/">Instagram</a>
+        <a href="https://www.linkedin.com/company/100498816/admin/feed/posts/">
+          LinkdIn
+        </a>
       </div>
     </section>
   );
