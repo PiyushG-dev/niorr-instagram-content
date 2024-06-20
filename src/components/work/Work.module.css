@@ -1,171 +1,160 @@
-.wrapper{
-    padding: 5vw 3vw 0vw 3vw;
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;   
+.wrapper {
+  padding: 5vw 3vw 0vw 3vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+.heading h2 {
+  font-size: 50px;
+  color: #3c3c3c;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.heading p {
+  color: #2e2e2e;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: helve;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.projects_container {
+  display: flex;
+  gap: 2vw;
+}
+
+.box {
+  text-decoration: none;
+}
+
+.box img {
+  width: 100%;
+  transition: all linear 0.2s;
+}
+
+.box img:active {
+  opacity: 0.5;
+}
+
+.cta {
+  padding-top: 0.5vw;
+}
+
+.cta {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cta p {
+  color: #626262;
+  font-family: helve;
+  font-size: 20px;
+  transition: all linear 0.2s;
+}
+
+.cta p:active {
+  color: #3c3c3c;
+}
+
+.links a {
+  font-size: 25px;
+}
+
+.links a:nth-child(1) {
+  color: #68e066;
+  transition: all linear 0.2s;
+}
+
+.links a:nth-child(1):active {
+  color: #53aa52;
+}
+
+.links a:nth-child(2) {
+  color: #ed3833;
+  transition: all linear 0.2s;
+}
+
+.links a:nth-child(2):active {
+  color: #9a0601;
+}
+
+.links {
+  display: flex;
+  gap: 1vw;
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 0vw;
+  border-top: 1px solid #2e2e2e;
+}
+
+.location {
+  display: flex;
+  gap: 0.5vw;
+}
+
+.socials p {
+  color: #3c3c3c;
+  font-size: 1.5vw;
+  font-family: helve;
+}
+.socials a {
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-family: helve;
+  color: #3c3c3c;
+  transition: all linear 0.2s;
+}
+
+.socials a:active {
+  color: #2e2e2e;
+}
+
+@media (max-width: 750px) {
+  .wrapper {
+    padding-top: 10vw;
+    gap: 8vw;
+  }
+
+  .heading h2 {
+    font-size: 10vw;
+  }
+
+  .heading p {
+    font-size: 16px;
+  }
+
+  .links {
     gap: 3vw;
-}
+  }
 
-
-.heading h2{
-    font-size: 50px;
-    color: #3c3c3c;
-    font-weight: lighter;
-    cursor: pointer;
-}
-
-.heading p{
-    color: #2e2e2e;
-    font-weight: 100;
-    font-size: 20px;
-    font-family: helve;
-}
-
-.projects{
-    display: flex;
+  .projects_container {
     flex-direction: column;
-    gap: 2vw;
-}
+    gap: 8vw;
+  }
 
-.projects_container{
-    display: flex;
-    gap: 2vw;
-}
+  .projects {
+    gap: 8vw;
+  }
 
-.box{
-    text-decoration: none;
-}
-
-.box img{
-    width: 100%;
-    transition: all linear 0.2s;
-}
-
-
-.box img:active{
-    opacity: .5;
-}
-
-.cta{
-    padding-top: .5vw;
-}
-
-.cta{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-.cta p{
-    color: #626262;
-    font-family: helve;
-    font-size: 20px;
-    transition: all linear 0.2s;
-}
-
-.cta p:active{
-    color: #3c3c3c;
-}
-
-.links a{
-    font-size: 25px;
-}
-
-.links a:nth-child(1){
-    color: #68E066;
-    transition: all linear 0.2s;
-}
-
-
-.links a:nth-child(1):active{
-    color: #53aa52;
-}
-
-.links a:nth-child(2){
-    color: #ED3833;
-    transition: all linear 0.2s;
-}
-
-.links a:nth-child(2):active{
-    color: #9a0601
-}
-
-.links{
-    display: flex;
-    gap: 1vw;
-}
-
-.socials{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2vw 0vw;
-    border-top: 1px solid #2e2e2e;
-}
-
-.location{
-    display: flex;
-    gap: .5vw;
-}
-
-.socials p{
-    color: #3c3c3c;
-    font-size: 1.5vw;
-    font-family: helve;
-}
-.socials a{
-    text-decoration: none;
-    font-size: 1.5vw;
-    font-family: helve;
-    color: #3c3c3c;
-    transition: all linear 0.2s;
-}
-
-
-.socials a:active{
-    color: #2e2e2e;
-}
-
-
-
-@media (max-width:750px){
-    .wrapper{
-        padding-top: 10vw;
-        gap: 8vw;
-    }
-
-    .heading h2{
-        font-size: 10vw;
-    }
-
-    .heading p{
-        font-size: 16px;
-    }
-    
-    .links{
-        gap: 3vw;
-    }
-
-    .projects_container{
-        flex-direction: column;
-        gap: 8vw;
-    }
-
-    .projects{
-        gap: 8vw;
-    }
-
-    .socials p{
-        font-size: 3vw;
-    }
-    .socials a{
-        font-size: 3vw;
-    }
-
-    .projects_container:nth-of-type(2) .box:nth-child(2){
-        display: none;
-    }
-
+  .socials p {
+    font-size: 3vw;
+  }
+  .socials a {
+    font-size: 3vw;
+  }
 }
